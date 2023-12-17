@@ -17,7 +17,7 @@ body {
     height: 100vh;
     transition-duration: 500ms;
     box-shadow: 5px 5px 15px #a59d9d28;
-    z-index: 1000;
+    z-index: 100;
     overflow-y: scroll;
 }
 .main-container .sidebar::-webkit-scrollbar-thumb {
