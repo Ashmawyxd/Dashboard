@@ -12,10 +12,10 @@ toggle2.onclick = () => {
 
 // Call the function on page load and whenever the window is resized
 function toggleSidebar() {
-  if (window.innerWidth < 600) {
-    window.sidebar.classList.toggle("slid");
-    window.sidebar.classList.toggle("fixed");
-    toggle2.classList.toggle("hide_btn");
+  if (window.innerWidth <= 600) {
+    window.sidebar.classList.add("slid");
+    window.sidebar.classList.add("fixed");
+    toggle2.classList.remove("hide_btn");
   }else{
     window.sidebar.classList.remove("slid");
     window.sidebar.classList.remove("fixed");
