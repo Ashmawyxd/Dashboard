@@ -17,7 +17,7 @@ body {
     height: 100vh;
     transition-duration: 500ms;
     box-shadow: 5px 5px 15px #a59d9d28;
-    z-index: 1000;
+    z-index: 100000;
     overflow-y: scroll;
 }
 .main-container .sidebar::-webkit-scrollbar-thumb {
@@ -185,7 +185,7 @@ body {
     background-color: #3B71CA;
     height: 10vh;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -197,7 +197,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: -70px;
-    z-index: 10000;
+    z-index: 100;
   }
   .layerDown img{
   border: 6px solid #2F5AA2;
