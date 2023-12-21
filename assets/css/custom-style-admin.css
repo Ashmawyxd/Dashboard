@@ -197,7 +197,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: -70px;
-    z-index: 100;
+    z-index: 1000;
   }
   .layerDown img{
   border: 6px solid #2F5AA2;
